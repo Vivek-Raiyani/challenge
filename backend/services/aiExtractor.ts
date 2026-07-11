@@ -7,7 +7,6 @@ import type { RawAiRecord } from "../utils/validateRecord";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
-  baseURL: process.env.OPENAI_BASE_URL,
 });
 
 function getModel(): string {
@@ -15,7 +14,11 @@ function getModel(): string {
 }
 
 function parseAiResponse(content: string): RawAiRecord[] {
-  const parsed = JSON.parse(content) as { records?: RawAiRecord[] };
+  let cleaned = content.trim();
+  if (cleaned.startsWith("```")) {
+    cleaned = cleaned.replace(/^```[a-zA-Z]*\n/, "").replace(/```$/, "").trim();
+  }
+  const parsed = JSON.parse(cleaned) as { records?: RawAiRecord[] };
 
   if (!parsed.records || !Array.isArray(parsed.records)) {
     throw new Error("AI response missing records array");
@@ -28,25 +31,34 @@ async function callOpenAI(
   rows: Record<string, string>[],
   startIndex: number
 ): Promise<RawAiRecord[]> {
-  const response = await openai.chat.completions.create({
-    model: getModel(),
-    temperature: 0.1,
-    response_format: { type: "json_object" },
-    messages: [
-      { role: "system", content: CRM_EXTRACTION_SYSTEM_PROMPT },
-      {
-        role: "user",
-        content: buildExtractionUserMessage(rows, startIndex),
-      },
-    ],
-  });
+  try {
+    const response = await openai.chat.completions.create({
+      model: getModel(),
+      response_format: { type: "json_object" },
+      messages: [
+        { role: "system", content: CRM_EXTRACTION_SYSTEM_PROMPT },
+        {
+          role: "user",
+          content: buildExtractionUserMessage(rows, startIndex),
+        },
+      ],
+    });
 
-  const content = response.choices[0]?.message?.content;
-  if (!content) {
-    throw new Error("Empty response from AI model");
+    const content = response.choices[0]?.message?.content;
+    if (!content) {
+      throw new Error("Empty response from AI model");
+    }
+
+    return parseAiResponse(content);
+  } catch (error: any) {
+    console.error("OpenAI/Groq API Error details:", {
+      message: error.message,
+      status: error.status,
+      code: error.code,
+      failed_generation: error.failed_generation || (error.response && error.response.data),
+    });
+    throw error;
   }
-
-  return parseAiResponse(content);
 }
 
 export async function extractBatch(

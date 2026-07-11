@@ -1,0 +1,63 @@
+Full Name,E-mail ID,Mobile No,Created Date,Company,City,State,Country,Lead Owner,Stage,Remarks,Source,Possession
+John Doe,john.doe@example.com,+91 98765 43210,2026-05-13 14:20:48,GrowEasy,Mumbai,Maharashtra,India,test@gmail.com,Follow Up,Client is asking to reschedule demo,leads_on_demand,
+Tarvinder Pal,tarvinderpal@beauty.com; backup@test.com,91-9836212345 / 9811122233,29/06/2026,,,,,,Busy,Busy - call next week,Facebook,
+No Contact Person,,,2026-06-01,ABC Corp,Delhi,,,,,No email or phone here,,
+Meera Kulkarni,N/A,9820011223,,,Pune,Maharashtra,India,,Maybe Later,"Interested, wants floor plan.
+Will visit site next weekend.",Meridian Tower Campaign,Dec 2026
+-,-,-,-,-,-,-,-,-,-,-,-,-
+Amit Raheja,amit.raheja@test.com,08048074123,03/04/2026,Raheja Builders,Bengaluru,Karnataka,India,owner2@company.com,Not Dialed,,Google,
+Priya Singh,priya.singh@example.com,9876543213,2026-05-13T14:35:22,Enterprise Corp,Pune,Maharashtra,India,test@gmail.com,Sale Done,"Deal closed, onboarding in progress",varah_swamy,Ready to move
+Rahil Mohammad,rahil@test.com,919579291234,1782806400,Beauty Co,Mumbai,,,,Interested,,eden_park,
+Dhruv Bisht,dhruv.b@growmail.in,97115641234,29-06-2026 10:00,,,,,,Rejected,Not interested in our offering,sarjapur_plots,
+,unknown@,,none,,,,,,none,none,none,
+Amit Shetty,,+1 415 555 0199,June 29 2026,ShettyTech,San Francisco,CA,USA,owner3@company.com,Callback requested,Wants a callback next Tuesday,,
+Sarah Johnson,sarah.johnson@example.com,,2026-05-13 14:25:30,Tech Solutions,Bangalore,Karnataka,India,test@gmail.com,No Answer,"Person was busy, will try again next week",,
+Random Ops Row,ignoreme@internal.test,,2026-01-01,InternalTestCo,,,,,GOOD_LEAD_FOLLOW_UP,This row also has a Tracking ID column that should be ignored,leads_on_demand,
+Vikram Malhotra,vikram.malhotra@yahoo.com,9988776655,2026-07-01 18:30:00,TechVentures,Noida,Uttar Pradesh,India,owner@company.com,Follow Up,Looking for 3BHK flats,housing_portal,Immediate
+Ananya Sen,ananya.sen@outlook.com; ananya@work.com,+91-8888888888,05/12/2026,Design Studio,Kolkata,West Bengal,India,test@gmail.com,Callback requested,Call after 6 PM,,
+Rajesh Kumar,,09876543210 / 022-24356789,2026-06-15,Kumar Logistics,Thane,Maharashtra,India,,Warm,"Interested in commercial space. Needs 2000 sq ft.",direct_walkin,
+Emily Watson,emily.w@global.org,,12-07-2026,Global Org,London,,United Kingdom,owner3@company.com,Not Dialed,Interested in property investment in India,,Dec 2026
+Sanjay Gupta,sanjay.gupta@outlook.co.in,917777777777,2026-06-20T11:00:00.000Z,Gupta & Sons,Jaipur,Rajasthan,India,test@gmail.com,Sale Done,Received token advance,magicbricks,
+Riya Sharma,riya.sharma@example.com,,July 2 2026,Sharma Associates,Gurugram,Haryana,India,,Rejected,Price is too high,google_ads,
+Karan Johar,karan.johar@dharmaprod.com,+91 99999 99999,2026-07-05,Dharma,Mumbai,Maharashtra,India,owner2@company.com,Hot,Wants penthouse with sea view,referral,Ready to move
+Deepak Patel,deepak.patel@gujaratcorp.in,,10-10-2026,Gujarat Corp,Ahmedabad,Gujarat,India,,Follow Up,Send brochure on WhatsApp,leads_on_demand,
+Invalid Lead,invalid-email-format,,2026-07-06,,,,,Not Dialed,Invalid email test,,
+Test Lead 2,,99999 00000,2026-07-07,,,,,,Follow Up,No email provided,,
+,,,,,Mumbai,Maharashtra,India,,Lost,Completely empty fields test,,
+Aarav Mehta,aarav.mehta@gmail.com,+919988998899,2026-07-08 09:15:00,Mehta Realty,Surat,Gujarat,India,owner2@company.com,Warm,"Wants a site visit this Sunday.
+Need to arrange cab.",property_portal,June 2027
+Sneha Reddy,sneha.reddy@hyderabadtech.com,+91 40 2345 6789,2026-07-09,Hyderabad Tech,Hyderabad,Telangana,India,owner3@company.com,Callback requested,Busy in meeting - callback tomorrow morning,direct_walkin,
+John Smith,john.smith@usacorp.com,+1 (555) 019-2834,15-06-2026,USA Corp,New York,NY,USA,,Not Dialed,Wants to invest in Bangalore project,newspaper_ad,Dec 2027
+Kunal Shah,kunal@cred.com,9820098200,2026-07-10,CRED,Bengaluru,Karnataka,India,owner@company.com,Follow Up,"Requested floor plan for 4BHK.
+Budget matches.",referral,Ready to move
+Aditi Rao,aditi.rao@films.in,9819198191,2026-07-10 14:00:00,,Chennai,Tamil Nadu,India,test@gmail.com,Hot,Very interested - wants to close by this weekend,leads_on_demand,
+Rohan Deshmukh,rohan.d@deshmukh-infra.com,+91-9123456789; +91-9876543210,11/07/2026,Deshmukh Infra,Nagpur,Maharashtra,India,,Not Dialed,Interested in bulk booking,,
+Nisha Verma,nisha.verma@education.org,7766554433,2026-07-11 16:00:00,Greenwood School,Dehradun,Uttarakhand,India,owner2@company.com,Follow Up,Checking loan options,google_ads,
+Harish Salve,harish.salve@law.in,,2026-07-11,Salve Legal,Delhi,,,test@gmail.com,Callback requested,Wants call on Zoom,referral,
+Mary D'Souza,mary.dsouza@example.com,+91 90000 12345,11-Jul-2026,Mary & Partners,Goa,Goa,India,owner3@company.com,Follow Up,Looking for villa,property_portal,
+Vijay Mallya,kingfisher@escape.com,+44 7700 900077,2026-07-11,Ex-UB Group,London,,UK,,Lost,No response / Not reachable,leads_on_demand,
+Abhishek Bachchan,abhishek@bachchan.com,9820011111 / 9820022222,2026-07-11 12:00:00,AB Corp,Mumbai,Maharashtra,India,test@gmail.com,Warm,Looking for office space,,
+Kriti Sanon,kriti.sanon@bollywood.com,,11/07/2026,Sanon Films,Mumbai,Maharashtra,India,,Follow Up,Send pricing list for luxury project,,
+Tushar Kapoor,tushar@balaji.com,9821098210,2026-07-11,Balaji Tele,Mumbai,Maharashtra,India,owner2@company.com,Rejected,Not looking to buy anymore,Facebook,
+Zeenat Aman,zeenat.aman@retro.com,+91 98989 89898,2026-07-11 15:45:00,Retro Styles,Pune,Maharashtra,India,test@gmail.com,Follow Up,Wants callback next month,leads_on_demand,
+Devendra Fadnavis,devendra@govt.in,,11-07-2026,,Nagpur,Maharashtra,India,,Not Dialed,Send details on government housing plans,,
+Nitin Gadkari,nitin.gadkari@nhai.gov.in,9812345678,2026-07-11,NHAI,Nagpur,Maharashtra,India,owner3@company.com,Warm,Wants highway connectivity plots,direct_walkin,
+Pankaj Tripathi,pankaj.t@kaleen.com,9876598765,2026-07-11,Kaleen Bhaiya,Mirzapur,Uttar Pradesh,India,test@gmail.com,Hot,Wants immediate possession,magicbricks,Ready to move
+Manoj Bajpayee,manoj@family.com,9111111111,2026-07-11 10:30:00,TASC,Mumbai,Maharashtra,India,owner@company.com,Follow Up,Keep details confidential,referral,
+Saif Ali Khan,saif@pataudi.com,,2026-07-11,Pataudi Estates,Bhopal,Madhya Pradesh,India,,Warm,Looking for ancestral property repairs / nearby lands,,
+Kareena Kapoor,kareena@work.com,9822222222,11-07-2026,,Mumbai,Maharashtra,India,owner2@company.com,Follow Up,Looking for premium flats only,google_ads,
+Ranbir Kapoor,ranbir@kapoor.com,+91 99999 11111,2026-07-11,,Mumbai,Maharashtra,India,,Not Dialed,Wants to visit showflat,leads_on_demand,
+Alia Bhatt,alia.b@kapoor.com,99999 22222,11/07/2026,Alia Prod,Mumbai,Maharashtra,India,test@gmail.com,Follow Up,Discussing with family,leads_on_demand,
+Shah Rukh Khan,srk@redchillies.com,9820055555,2026-07-11 09:00:00,Red Chillies,Mumbai,Maharashtra,India,owner@company.com,Sale Done,Bought sea-facing duplex,referral,Ready to move
+Salman Khan,salman@galaxy.com,9820066666,2026-07-11,Galaxy Apartments,Mumbai,Maharashtra,India,,Warm,"Wants a secure estate.
+Needs high security.",direct_walkin,
+Aamir Khan,aamir@perfectionist.com,9820077777,2026-07-11,AK Productions,Mumbai,Maharashtra,India,owner2@company.com,Follow Up,Needs highly customized layout,,
+Sachin Tendulkar,sachin@srt.com,9821010101,2026-07-11 11:11:11,SRT Sports,Mumbai,Maharashtra,India,owner3@company.com,Hot,Looking for sports academy space,referral,
+Virat Kohli,virat@anushka.com,9820018181,2026-07-11,VK18,Gurugram,Haryana,India,test@gmail.com,Follow Up,Looking for villa,magicbricks,
+MS Dhoni,msd@csk.com,9820007007,2026-07-11,Dhoni Enterprises,Ranchi,Jharkhand,India,owner@company.com,Sale Done,Bought farmhouse plot,google_ads,Ready to move
+Rohit Sharma,rohit.sharma@hitman.com,,2026-07-11 15:00:00,Hitman Sports,Mumbai,Maharashtra,India,,Warm,Callback after match,,
+Hardik Pandya,hardik@pandya.com,9820033333,2026-07-11,,Baroda,Gujarat,India,owner2@company.com,Follow Up,Wants luxury penthouse,Facebook,
+Jasprit Bumrah,bumrah@yorker.com,9820099999,2026-07-11,,Ahmedabad,Gujarat,India,owner3@company.com,Not Dialed,Interested in weekend villas,,
+Lokesh Rahul,kl.rahul@cricket.in,,2026-07-11,KL Tech,Bengaluru,Karnataka,India,test@gmail.com,Rejected,No response for 3 calls,leads_on_demand,
+Shikhar Dhawan,shikhar@gabbar.com,9820044444,2026-07-11,Gabbar Enterprises,Delhi,,,owner@company.com,Follow Up,Wants site visit next Tuesday,,
+Ravindra Jadeja,sir.jadeja@csk.com,9820088888,2026-07-11,Jadeja Royal,Jamnagar,Gujarat,India,,Warm,Wants to build horse stable area,,

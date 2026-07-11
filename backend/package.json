@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "nodemon --exec tsx index.ts",
+    "dev": "nodemon --ext ts,json,env --exec tsx index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "smoke-test": "node scripts/smoke-test.js",

@@ -119,7 +119,14 @@ function normalizeDate(value?: string): string | undefined {
   const cleaned = clean(value);
   if (!cleaned) return undefined;
 
-  const parsed = new Date(cleaned);
+  let toParse: string | number = cleaned;
+
+  // Detect bare 10-digit Unix timestamp (seconds) and convert to ms
+  if (/^\d{10}$/.test(cleaned)) {
+    toParse = Number(cleaned) * 1000;
+  }
+
+  const parsed = new Date(toParse);
   if (Number.isNaN(parsed.getTime())) return cleaned;
 
   const pad = (n: number) => String(n).padStart(2, "0");
