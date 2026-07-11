@@ -3,6 +3,7 @@ services:
   - type: web
     name: groweasy-backend
     runtime: node
+    plan: free
     rootDir: backend
     buildCommand: npm install && npm run build
     startCommand: npm start
@@ -27,6 +28,7 @@ services:
   - type: web
     name: groweasy-frontend
     runtime: node
+    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     startCommand: npm start
