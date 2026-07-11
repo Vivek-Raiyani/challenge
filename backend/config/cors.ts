@@ -3,7 +3,7 @@ export function getAllowedOrigins(): string[] {
   return raw
     .split(",")
     .map((origin) => {
-      const trimmed = origin.trim();
+      const trimmed = origin.trim().replace(/\/+$/, ""); // strip trailing slashes
       if (!trimmed) return "";
       // Render's `host` property returns a bare hostname (no scheme).
       // Prepend https:// so CORS origin checks work correctly in production.
