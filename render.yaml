@@ -1,0 +1,40 @@
+services:
+  # ── Backend: Express API ──────────────────────────────────────────────────
+  - type: web
+    name: groweasy-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: OPENAI_API_KEY
+        sync: false                  # Set this manually in the Render dashboard
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: BATCH_SIZE
+        value: 15
+      - key: FRONTEND_URL
+        fromService:
+          name: groweasy-frontend
+          type: web
+          property: hostWithScheme  # e.g. https://groweasy-frontend.onrender.com
+
+  # ── Frontend: Next.js ─────────────────────────────────────────────────────
+  - type: web
+    name: groweasy-frontend
+    runtime: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: groweasy-backend
+          type: web
+          property: hostWithScheme  # e.g. https://groweasy-backend.onrender.com
