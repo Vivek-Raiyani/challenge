@@ -21,7 +21,7 @@ services:
         fromService:
           name: groweasy-frontend
           type: web
-          property: hostWithScheme  # e.g. https://groweasy-frontend.onrender.com
+          property: host            # Returns bare hostname, code adds https://
 
   # ── Frontend: Next.js ─────────────────────────────────────────────────────
   - type: web
@@ -37,4 +37,4 @@ services:
         fromService:
           name: groweasy-backend
           type: web
-          property: hostWithScheme  # e.g. https://groweasy-backend.onrender.com
+          property: host            # Returns bare hostname, code adds https://

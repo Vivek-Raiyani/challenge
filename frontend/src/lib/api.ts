@@ -1,7 +1,10 @@
 import axios from "axios";
 import type { ImportResponse } from "../types/crm";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+const rawApiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+// Render's `host` property returns a bare hostname (no scheme).
+// Normalize to a full URL so axios requests work correctly in production.
+const API_URL = rawApiUrl.startsWith("http") ? rawApiUrl : `https://${rawApiUrl}`;
 const isDev = process.env.NODE_ENV === "development";
 
 function devLog(message: string, data?: unknown) {
